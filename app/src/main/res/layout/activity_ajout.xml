@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ajout">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajout"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ednum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="saisir votre numéro"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edlong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir votre longitude"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edalt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir votre altitude"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/val"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="Valider" />
+
+        <Button
+            android:id="@+id/qte"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="Quitter" />
+    </LinearLayout>
+
+</LinearLayout>
